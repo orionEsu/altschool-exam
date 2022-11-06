@@ -1,0 +1,29 @@
+@import "../../sass/variables";
+
+.repo-details {
+  padding: 4rem 0;
+  margin: 0 8rem;
+  padding: 2rem;
+  color: white;
+  font-size: 1.6rem;
+  border: 1px solid $green;
+
+  @media only screen and (max-width: 768px) {
+    margin: 0 2rem;
+  }
+
+  h1 {
+    margin-bottom: 2rem;
+    font-family: $font-header;
+  }
+
+  p {
+    margin-bottom: 2rem;
+  }
+
+  a {
+    color: $green;
+    text-decoration: none;
+    font-weight: bold;
+  }
+}

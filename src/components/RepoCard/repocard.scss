@@ -1,0 +1,31 @@
+@import "../../sass/variables";
+
+
+.RepoCard {
+  padding: 1rem;
+  padding: 2rem;
+  border-radius: 1rem;
+
+  a {
+    text-decoration: none;
+  }
+
+  h1 {
+    font-size: 2rem;
+    font-family: $font-header;
+    margin-bottom: 1rem;
+    color: black;
+
+  }
+
+  p {
+    font-size: 1.6rem;
+    color: black;
+  }
+
+  .repo__extra {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+  }
+}

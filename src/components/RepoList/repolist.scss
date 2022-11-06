@@ -1,0 +1,27 @@
+@import "../../sass/variables";
+
+.RepoList {
+  // padding: 8rem;
+
+  h1 {
+    font-size: 6rem;
+    font-family: $font-header;
+    margin-bottom: 2rem;
+    color: $yellow;
+
+    @media screen and (max-width: 768px) {
+      font-size: 4rem;
+    }
+  }
+
+  p {
+    font-size: 2rem;
+    color: $green;
+  }
+
+  .repo__items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 3rem;
+  }
+}
