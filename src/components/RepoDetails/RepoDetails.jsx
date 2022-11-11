@@ -38,7 +38,7 @@ const RepoDetails = () => {
         <p>Description: {repoDetails.description}</p>
         <p>Last Updated: {repoDetails.updated_at}</p>
         {/* <p>Repo Description: {repoDetails.}</p> */}
-        <p>Link to Repo: <a target="_blank" href={repoDetails.url}>Visit</a></p>
+        <p>Link to Repo: <a target="_blank" href={repoDetails.html_url}>Visit</a></p>
       </div>
     </div>
   )
